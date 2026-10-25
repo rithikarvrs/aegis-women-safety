@@ -1,52 +1,60 @@
-# AEGIS: Zero-Trust Safety & Sovereign Fabric
-> **“Invisible when you’re safe. Indomitable when you’re not.”**
+# AEGIS SAFETY: Smart Women Safety & Emergency Protection
+> **“Invisible when you are safe. Indomitable when you are not.”**
 
-AEGIS is an on-device personal security ecosystem that merges **Edge-AI acoustic distress detection**, **Zero-Knowledge (ZK) safe-transit proofs**, **Shamir's Secret Sharing threshold escrow**, and a **Digital Sovereign Media Shield**.
+AEGIS is a personal security ecosystem that merges **Edge-AI acoustic distress detection**, **Zero-Knowledge (ZK) safe-transit proofs**, **Shamir's Secret Sharing threshold escrow**, and an **Autonomous Digital Identity & Media Shield**.
 
 ---
 
-## 🚀 Live Working Model Quickstart
+## 🚀 Quickstart Guide
 
-The live interactive application is currently running at:
-👉 **[http://127.0.0.1:8080](http://127.0.0.1:8080)**
+### 1. Clone & Install:
+```bash
+git clone https://github.com/rithikarvrs/aegis-women-safety.git
+cd aegis-women-safety
+pip install fastapi uvicorn websockets
+```
 
-### To Run / Restart Manually:
-```powershell
-cd C:\Users\murug\.gemini\antigravity\scratch\aegis-safety-protocol
+### 2. Run the Server:
+```bash
 python -m uvicorn app:app --host 127.0.0.1 --port 8080
 ```
 
-### To Run the Verification Test Suite:
-```powershell
+### 3. Open in Browser:
+Open **[http://127.0.0.1:8080](http://127.0.0.1:8080)** in your browser.
+
+---
+
+## 🧪 Run Automated Verification Tests
+```bash
 python test_suite.py
 ```
 
 ---
 
-## 🎯 Hackathon Judge Demo Cheat-Sheet
+## 🎯 Demo Cheat-Sheet
 
-| Interaction | Action | What Happens Cryptographically |
+| Feature | Key / Action | What It Does |
 | :--- | :--- | :--- |
-| **Normal Calculator** | Enter standard math (`42 * 5 =`) | Operates as a benign scientific calculator (`CalcPro+`). |
-| **Chameleon Unlock** | Type `1842.50 =` on the keypad | Triggers biometric animation and unfolds the hidden **AEGIS Command Console**. |
-| **Duress Hostage PIN** | Type `0000 =` on the keypad | Renders a decoy financial budget for the attacker while silently firing a **Level-3 Hostage Emergency** to CAD with raw GPS coordinates. |
-| **Whisper Safe-Word** | Click `🗣️ "Lemons"` or toggle real mic | Simulated on-device Gemini Nano acoustic classifier detects sub-vocalized safe word; reconstructs coordinates via 3-of-5 Shamir threshold. |
-| **Acoustic Scream** | Click `🚨 Scream` or make loud noise | Triggers high-G acoustic stress pipeline and alerts police CAD. |
-| **ZK Geofence Step** | Click `Step Along Route` | Generates 128-byte Groth16 proof: confirms safety inside corridor without revealing lat/lon coordinates. |
-| **Media Takedown** | Click `Scan` in Digital Shield | Evaluates 64-bit pHash Hamming distance and drafts 18 U.S.C. § 2261A / DMCA cease-and-desist notice. |
-| **BLE Stalker Sweep** | Click `Detect Trailing Tag` | Evaluates RSSI deltas across waypoints to detect rogue Apple AirTags. |
-| **CAD Dispatch** | Click `Dispatch Unit #104` | Police CAD routes unit to decrypted GPS and sends silent haptic heartbeat to victim. |
+| **Normal Calculator** | Standard math (`25 * 4 =`) | Works as an everyday benign calculator. |
+| **Secret Safety App** | Type **`9999 =`** (or `1234 =`) | Unlocks the hidden **Aegis Safety Shield**. |
+| **Emergency Fake PIN** | Type **`5555 =`** (or `0000 =`) | Renders a decoy daily expense budget while secretly dispatching real GPS to Police 112. |
+| **Scream & Voice Trigger** | Click **`🗣️ Say "Help"`** or **`🚨 Scream`** | On-device acoustic classifier detects distress and unlocks emergency coordinates. |
+| **Real GPS Location** | Click **`📍 Detect My Real GPS Location`** | Uses device GPS to center map directly on user's live location with high accuracy. |
+| **Safe Route Protection** | Click **`Walk Along Route`** | Generates 128-byte mathematical proofs confirming safety without disclosing exact coordinates. |
+| **Stop Leaked Photos** | Click **`Scan`** under Media Shield | Evaluates 64-bit perceptual hash and generates formal 24-hour removal notice under IT Act Rule 3(2)(b). |
+| **Find Hidden Trackers** | Click **`Detect Trailing Tracker`** | Analyzes background RF signals to detect unknown AirTags trailing the user. |
+| **Police 112 Dispatch** | Click **`Dispatch Police 112 / PCR Van`** | Routes nearest response unit to decrypted GPS and sends silent haptic heartbeat to victim. |
 
 ---
 
-## 📂 Project Directory Structure
+## 📂 Project Structure
 
 ```
-aegis-safety-protocol/
+aegis-women-safety/
 ├── app.py                 # FastAPI microservice with WebSockets & REST endpoints
 ├── crypto_engine.py       # Mathematical primitives (Shamir 3-of-5, ZK Geofence, pHash, BLE, Merkle)
 ├── test_suite.py          # Automated verification test suite
 ├── static/
-│   └── index.html         # Interactive dual-screen client (Chameleon phone + Police CAD)
-└── README.md              # Documentation & pitch guide
+│   └── index.html         # Interactive dual-screen client (Chameleon phone + Police 112 CAD)
+└── README.md              # Project documentation
 ```
