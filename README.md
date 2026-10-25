@@ -1,7 +1,48 @@
-# AEGIS SAFETY: Smart Women Safety & Emergency Protection
-> **“Invisible when you are safe. Indomitable when you are not.”**
+# A.E.G.I.S.
+## **Autonomous Edge-Guardian & Identity Shield**
+> *“Invisible when you are safe. Indomitable when you are not.”*
 
-AEGIS is a personal security ecosystem that merges **Edge-AI acoustic distress detection**, **Zero-Knowledge (ZK) safe-transit proofs**, **Shamir's Secret Sharing threshold escrow**, and an **Autonomous Digital Identity & Media Shield**.
+---
+
+## 💡 What is A.E.G.I.S.?
+* **A.E.G.I.S.** stands for **Autonomous Edge-Guardian & Identity Shield**.
+* The word *"Aegis"* historically refers to an impenetrable, protective shield.
+* It is a **zero-trust, privacy-first personal safety ecosystem** designed to protect women across both **physical travel** (street, cab, bus) and **digital environments** (online photo leaks, deepfakes, stalking).
+
+---
+
+## 🚨 The Problem A.E.G.I.S. Solves
+
+Traditional safety apps fail in real-world emergencies for three critical reasons:
+1. **Victims cannot tap buttons in panic:** If someone grabs your hand or snatches your phone, you cannot unlock your screen, find an app, and tap an "SOS" button.
+2. **Surveillance & Stalking Risks:** Existing apps track your live GPS coordinates 24/7 on central servers. This allows abusive partners or hackers to spy on your exact room and everyday movements.
+3. **Ignoring Digital Threats:** Harassment today is hybrid—stalkers use hidden Bluetooth tags (AirTags) to trail cabs, or use non-consensual photo leaks and AI deepfakes for online extortion.
+
+---
+
+## 🛡️ How A.E.G.I.S. Works (5 Core Features)
+
+1. **Secret Calculator Disguise (Chameleon Shell)**
+   * On your home screen, the app looks and works like an everyday calculator.
+   * Typing **`9999 =`** unlocks the secret Safety App.
+   * If an attacker forces you to unlock your phone, typing **`5555 =`** opens a fake **Daily Expenses** screen while **silently calling Police 112** with your real GPS location!
+
+2. **Hands-Free Scream & Voice Listener (On-Device Edge-AI)**
+   * You don't need to touch your phone. The app listens locally on the phone's chip.
+   * If you scream or say *"Help"*, it automatically triggers an emergency alert.
+   * **100% Private:** Zero audio is ever uploaded to the cloud or saved.
+
+3. **Private Safe Route (Zero-Tracking Geofence)**
+   * Uses cryptographic Zero-Knowledge Proofs (ZK-SNARKs) to confirm to your family that you are safely on your daily route.
+   * **Your exact latitude, longitude, and room location stay private** and only unlock if an actual emergency occurs or if your travel timer expires.
+
+4. **Stop Leaked Photos & AI Deepfakes (Digital Shield)**
+   * Uses 64-bit perceptual image hashing (pHash) to detect unconsented photo re-uploads and synthetic deepfakes.
+   * Generates a formal legal demand requiring **mandatory 24-hour removal** under Section 66E/67 of the IT Act and Rule 3(2)(b) of the IT Rules, 2021.
+
+5. **Find Hidden Trackers & Masked Numbers**
+   * **Bluetooth Tracker Radar:** Scans for unknown Apple AirTags or GPS tags following your auto-rickshaw or bus.
+   * **Disposable Numbers:** Creates temporary relay numbers for Swiggy, Zepto, Ola, or Uber so delivery persons and cab drivers never get your real phone number.
 
 ---
 
@@ -51,10 +92,10 @@ python test_suite.py
 
 ```
 aegis-women-safety/
-├── app.py                 # FastAPI microservice with WebSockets & REST endpoints
-├── crypto_engine.py       # Mathematical primitives (Shamir 3-of-5, ZK Geofence, pHash, BLE, Merkle)
+├── app.py                 # FastAPI server with WebSockets & Emergency 112 dispatch
+├── crypto_engine.py       # Cryptographic engine (Shamir 3-of-5, ZK Geofence, pHash, BLE, Merkle)
 ├── test_suite.py          # Automated verification test suite
 ├── static/
-│   └── index.html         # Interactive dual-screen client (Chameleon phone + Police 112 CAD)
-└── README.md              # Project documentation
+│   └── index.html         # Interactive dual-screen application (Phone + Police Control Room)
+└── README.md              # Project documentation and purpose guide
 ```
